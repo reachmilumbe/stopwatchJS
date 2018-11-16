@@ -1,0 +1,83 @@
+*
+{
+	margin: 0; padding: 0;
+}
+
+html
+{
+	font-family: "Trebuchet Ms";
+	background-color: lightseagreen; 
+}
+
+.sw_wrapper
+{
+	margin-top: 50px;
+	text-align: center;
+	padding: 15px;
+}
+.input_style
+{
+  font-size: 40px;
+	text-align: center;
+	color: #000;
+}
+
+.sw_wrapper input[type = "text"]
+{
+	margin-top: 15px;
+	background: none;
+  	width: 60px;
+	height: 40px;
+	padding: 10px;
+	border: 2px solid #000;
+	border-radius: 5px;
+}
+
+.sw_btn
+{
+	margin: 15px;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+	font-size: 18px;
+	background: none;
+	border: 2px solid #000;
+	border-radius: 5px;
+	width: 350px;
+	letter-spacing: 10px;
+}
+
+.sw_btn:hover
+{
+	cursor: pointer;
+}
+
+.sw_btn:active
+{
+	border: 3px solid #000;
+}
+
+.sw_stop
+{
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	font-size: 16px;
+	background: none;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	width: 350px;
+	letter-spacing: 5px;
+}
+
+.sw_stop:hover
+{
+	cursor: pointer;
+}
+
+.sw_stop:active
+{
+	border: 3px solid #000;
+}
